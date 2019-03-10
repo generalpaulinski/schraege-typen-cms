@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
+import logo from "../img/logo.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -77,12 +77,12 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
-                <a className="btn btn-social-icon btn-facebook"
+                <a className="navbar-item"
                    href="https://www.facebook.com/Schräge-Typen-416235208448365/" target="_blank">
                     Facebook
                 </a>
-                <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/schraegetypen/"
-                   target="_blank">
+                <a className="navbar-item"
+                   href="https://www.instagram.com/schraegetypen/" target="_blank">
                     Instagram
                 </a>
             </div>
