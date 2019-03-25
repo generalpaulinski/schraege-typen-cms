@@ -1,5 +1,5 @@
 ---
-templateKey: 'index-page'
-image: /img/home-jumbotron.jpg
+templateKey: index-page
+image: /img/img_9126.jpg
 ---
 
